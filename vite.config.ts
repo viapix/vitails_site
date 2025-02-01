@@ -18,4 +18,7 @@ export default defineConfig({
       '@data': fileURLToPath(new URL('./src/data', import.meta.url)),
     },
   },
+  build: {
+    outDir: 'public',
+  },
 })
