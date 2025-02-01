@@ -29,4 +29,8 @@ coverage
 
 *.tsbuildinfo
 
+# Devcontainers
 .devcontainer/
+
+# Public folder used for Pages
+public/
