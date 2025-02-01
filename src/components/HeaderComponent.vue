@@ -1,5 +1,9 @@
+<script lang="ts" setup>
+import NavComponent from '@components/NavComponent.vue'
+</script>
+
 <template>
-  <div class="w-full bg-orange-800">
-    <slot></slot>
-  </div>
+  <header>
+    <NavComponent />
+  </header>
 </template>

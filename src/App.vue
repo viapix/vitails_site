@@ -1,17 +1,13 @@
 <script setup lang="ts">
-import NavComponent from '@components/NavComponent.vue'
 import HeaderComponent from '@components/HeaderComponent.vue'
-import { RouterView } from 'vue-router'
+import FooterComponent from '@components/FooterComponent.vue'
+import MainPageComponent from '@components/MainPageComponent.vue'
 </script>
 
 <template>
-  <header>
-    <HeaderComponent>
-      <NavComponent />
-    </HeaderComponent>
-  </header>
-
-  <main>
-    <RouterView />
-  </main>
+  <div class="flex flex-col h-screen">
+    <HeaderComponent class="flex-none" />
+    <MainPageComponent class="grow border-2" />
+    <FooterComponent class="flex-none" />
+  </div>
 </template>
